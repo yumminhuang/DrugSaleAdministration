@@ -1,0 +1,12 @@
+Mon Nov 28 15:55:10 CST 2011
+INSERT INTO Drug VALUES ('D999','asfd','adfdf','afdsf','hfgd','fgfd',2,'F007',#2011-11-30#)
+Execute Succeed
+
+Mon Nov 28 15:56:24 CST 2011
+UPDATE Drug SET drug_name ='asfd',con_name='adfdf',app_num='afdsf',spec='jhnc',pack='fgfd',quality=1,factory='F008',verification=#2011-11-30# WHERE drug_id = 'D999'
+Execute Succeed
+
+Mon Nov 28 15:56:27 CST 2011
+DELETE FROM Drug WHERE drug_id = 'D999'
+Execute Succeed
+
